@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <title>school task #1</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Trader Joe's</h1>
+        <h2>Add New Product:</h2>
+    </div>
+    <form>
+        <div class="creat-product">
+            <label for="productName">Product Name:</label>
+            <input type="text" id="ProductName">
+        </div>
+        <div class="creat-price">
+            <label for="productPrice">Product Price:</label>
+            <input type="text" id="ProductPrice">
+        </div>
+        <div class="creat-category">
+            <label for="productCategory">Product Category:</label>
+            <input type="text" name="" id="ProductCategory">
+        </div>
+        <div class="creat-img">
+            <label for="productImg">Product Img:</label>
+            <select name="" id="ProductImg">
+                <option value="https://i.redd.it/yyr6vtruhzbb1.jpg">
+                    Drinks</option>
+                <option value="https://assets.clevelandclinic.org/transform/37277655-04cc-4296-9ba2-54b9ba9c8811/various-raw-Red-Meats-1315903639-967x544-1_jpg">Meat</option>
+                <option value="https://idahomilkproducts.b-cdn.net/wp-content/uploads/2021/09/processing-differences-common-dairy-products.jpg">Dairy</option>
+                <option value="https://www.diabetes.co.uk/wp-content/uploads/2020/10/sweets.jpg">Sweets</option>
+                <option value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpEQTMAKqkfNQNmDcjfh8F7SL7qZUUWHa6Jw&s">Other Products</option>
+            </select>
+        </div>
+    </form>
+    <div>
+        <button id="button">Push  product to your cart</button>
+       
+    </div>
+    <div>
+        <h4>Cart Details:</h4>
+            <table id="ProductS">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Product Name:</th>
+                        <th>Product Price:</th>
+                        <th>Product Category:</th>
+                        <th>Product Img:</th>
+                    </tr>
+                </thead>
+                <tbody id="products">
+
+                </tbody>
+            </table>
+    </div>
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
